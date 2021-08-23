@@ -10,18 +10,17 @@ function reverse(n){
 }
 console.log(reverse(n));*/
 //8654
-
-/*function fibbonaci(n)
+/*(function fibbonaci(n)
 {
     var n1=0;
     var n2=1;
-    var sum;//error code
-    for(i=0;i<n;i++){
+    var sum;
+    for(i=2;i<=n;i++){
         sum=n1+n2;
         n1=n2
         n2=sum
     }
     return n2
-    
 }
 console.log(fibbonaci(9))*/
+//34
