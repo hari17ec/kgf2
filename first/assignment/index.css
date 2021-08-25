@@ -1,0 +1,16 @@
+#align{
+    text-align: center;
+}
+#assign{
+    text-align: right;
+}
+/* #abc{
+    color: greenyellow;
+} */
+#txt:focus{
+    background-color: black;
+}
+/* #case1:focus-visible{
+    font-variant-caps:all-petite-caps ;
+} */
+
