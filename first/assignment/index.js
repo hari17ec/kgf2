@@ -44,7 +44,7 @@ function redcolor() {
    }
    //string.uppercase
    function harii() {
-    document.getElementById("demo").style.backgroundColor = "orange"
-   }
+  document.getElementById("demo").style.backgroundColor = "orange"
+ }
 
 

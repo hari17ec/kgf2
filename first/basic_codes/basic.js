@@ -1,14 +1,14 @@
-/*let n=4568
-function reverse(n){
-    let rev_num=0;
-    while(n>0)
-    {
-        rev_num=rev_num*10+n%10;
-        n=Math.floor(n/10);
-    }
-    return rev_num;
-}
-console.log(reverse(n));*/
+// let n=4568
+// function reverse(n){
+//     let rev_num=0;
+//     while(n>0)
+//     {
+//         rev_num=rev_num*10+n%10;
+//         n=Math.floor(n/10);
+//     }
+//     return rev_num;
+// }
+// console.log(reverse(n));
 //8654
 /*(function fibbonaci(n)
 {
@@ -24,3 +24,5 @@ console.log(reverse(n));*/
 }
 console.log(fibbonaci(9))*/
 //34
+
+
