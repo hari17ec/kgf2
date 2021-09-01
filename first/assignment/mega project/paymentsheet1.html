@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <form action="#">
+        <nav class="navbar navbar-dark bg-success ">
+            <a class="navbar-brand mb-0 h1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zBsJiooUgL5rwVkjpDEwLlZsbiH-K_uC7Q&usqp=CAU" alt="" width="60" height="60" style="font-size: xx-large;" >Payment form </a>
+          </nav>
+        <!-- <h1>Payment form</h1><hr> -->
+        <div style="background-color: cyan;">
+        <h2 style="text-decoration: underline;background-color: coral;font-family: cursive;" >Contact information</h2>
+        <p style="text-decoration: gold;font-style: italic;color: indigo;">Required fields are followed by *</p>
+        <p>Name:* <input type="text" name="name" required style="border-radius: 30px;"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male:* <input type="radio" name="gender" id="male"required>
+                Female:* <input type="radio" name="gender" id="female"required>
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address"cols="100" rows="5" style="border-radius: 30px;"></textarea></p>
+        <p>Email:* <input type="email" name="email" id="email"required style="border-radius: 30px;"> </p>
+        <p>Pincode:*<input type="number" name="pincode" id="pin"required style="border-radius: 30px;"></p>
+        </div>
+        <div style="background-color: cyan;">
+        <h2 style="background-color: coral;font-family: cursive;text-decoration: underline;" >Payment Information</h2>
+        <p>
+            Card Type:*
+            <select name="card_type" id="card_type"required style="border-radius: 30px;">
+                <option value="">--Select a Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="master_card">Master_Card</option>
+            </select>
+        </p>
+        <p>
+            Card number :* <input type="number" name="cardnumber" id="cardnumber"required style="border-radius: 30px;">
+        </p>
+        <p>
+            Expiration Date:* <input type="date" name="exp_date" id="exp_date"required style="border-radius: 30px;">
+        </p>
+        <p style="margin: 32px;text-align: left;">CVV :* <input type="password" name="cvv" id="cvv"required style="margin: 4;border-radius: 30px;"></p>
+        </div>
+        <div style="background-color: cyan;margin-top:0;"><input type="submit" value="Pay Now" style="background-color: darkgreen;"></div>
+
+
+    </form>
+</body>
+</html>

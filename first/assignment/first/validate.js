@@ -6,7 +6,7 @@ function validate() {
     let repassword = document.getElementById("repassword").value;
   
     if (userName == "") {
-      document.getElementById("space_one").innerHTML = "Please Enter User Name";
+      document.getElementById("space_one").innerHTML = "*Please Enter User Name";
       return false;
     }
     if (password == "" || password.length < 5) {
@@ -14,8 +14,9 @@ function validate() {
         "Password min 5 Characters";
       return false;
     }
+    
     if (password != repassword) {
-      document.getElementById("space_three").innerHTML = "Password doesnt match";
+      document.getElementById("space_three").innerHTML = "*Password doesnt match";
       return false;
     }
   }
